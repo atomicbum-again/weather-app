@@ -25,3 +25,30 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* spacing between input and button */
+  margin-top: 15px; /* spacing from the title */
+}
+
+input {
+  flex: 1; /* makes input take remaining space */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff9800;
+  color: white;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #e68900;
+}
